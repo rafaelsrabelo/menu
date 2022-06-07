@@ -1,0 +1,49 @@
+.releases {
+  padding: 0 2rem;
+}
+.releases .content {
+  display: flex;
+}
+.releases .card {
+  margin-top: 1rem;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 440px;
+}
+
+.releases .card .header {
+  display: flex;
+}
+
+.releases .card .header img {
+  margin-left: auto;
+  width: 100px;
+}
+
+.card + .card {
+  margin-left: 1rem;
+}
+
+.releases .card h2 {
+  font-size: 1.2rem;
+}
+
+.releases .card p {
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+}
+
+.releases .card span {
+  font-size: 0.875rem;
+  color: var(--red);
+  font-weight: 700;
+}
+
+.releases .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
