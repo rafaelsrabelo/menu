@@ -1,6 +1,12 @@
 .releases {
   padding: 0 2rem;
 }
+
+.releases h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--red);
+}
 .releases .content {
   display: flex;
 }
@@ -27,6 +33,7 @@
 
 .releases .card h2 {
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .releases .card p {
@@ -35,9 +42,26 @@
 }
 
 .releases .card span {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: var(--red);
   font-weight: 700;
+}
+
+.releases .card a {
+  background: var(--red);
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.releases .card a:hover {
+  filter: brightness(0.8);
+}
+
+.releases .card a svg {
+  margin-left: 10px;
 }
 
 .releases .information {

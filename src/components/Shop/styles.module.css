@@ -1,0 +1,95 @@
+.shop {
+  margin: 0 2rem;
+  margin-left: auto;
+  background: var(--white);
+  border-radius: 8px;
+  width: 400px;
+}
+
+.shop .header {
+  display: flex;
+  justify-content: center;
+  background: var(--red);
+  color: var(--white);
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.shop .header svg {
+  margin-right: 0.5rem;
+}
+
+.shop .header .headerText {
+  display: flex;
+  align-items: center;
+}
+
+.shop .header span {
+  margin-left: 0.5rem;
+}
+
+.shop .content .headerContent {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.shop .content .headerContent h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.shop .content .headerContent .decrease {
+  background: var(--red);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  margin-left: auto;
+  border: 0;
+}
+
+.shop .content .headerContent .incremment {
+  background: var(--green);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.shop .content .headerContent svg {
+  color: var(--white);
+}
+
+.shop .content .headerContent span {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.shop .content .value {
+  display: flex;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+.shop .content .value p {
+  font-size: 0.9rem;
+  margin-right: auto;
+}
+
+.shop .content .value span {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.shop .content button {
+  background: var(--red);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: 2rem 0.5rem;
+  width: 200px;
+  border: 0;
+  color: var(--white);
+}

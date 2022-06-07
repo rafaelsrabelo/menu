@@ -1,0 +1,10 @@
+.general {
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.general h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--red);
+}

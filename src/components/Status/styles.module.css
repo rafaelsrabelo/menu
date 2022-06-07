@@ -16,11 +16,17 @@
   align-items: center;
 }
 
-.content .status p {
-  margin-left: 0.5rem;
+.content .status {
+  display: flex;
+  align-items: center;
+
   font-size: 0.875rem;
   font-weight: 700;
   color: var(--text);
+}
+
+.content .status svg {
+  margin-right: 0.5rem;
 }
 
 .content .time {
@@ -30,8 +36,8 @@
 }
 
 .content .time .timeData {
-  display: block;
   font-size: 0.75rem;
-
+  align-items: center;
+  text-align: center;
   margin-left: 0.5rem;
 }
